@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/forbidden/static/css/main.2ac81a6a.chunk.css",
-    "main.js": "/forbidden/static/js/main.adec43f1.chunk.js",
-    "main.js.map": "/forbidden/static/js/main.adec43f1.chunk.js.map",
-    "runtime-main.js": "/forbidden/static/js/runtime-main.c151dbb0.js",
-    "runtime-main.js.map": "/forbidden/static/js/runtime-main.c151dbb0.js.map",
-    "static/js/2.d99d9bc9.chunk.js": "/forbidden/static/js/2.d99d9bc9.chunk.js",
-    "static/js/2.d99d9bc9.chunk.js.map": "/forbidden/static/js/2.d99d9bc9.chunk.js.map",
-    "index.html": "/forbidden/index.html",
-    "static/css/main.2ac81a6a.chunk.css.map": "/forbidden/static/css/main.2ac81a6a.chunk.css.map",
-    "static/js/2.d99d9bc9.chunk.js.LICENSE.txt": "/forbidden/static/js/2.d99d9bc9.chunk.js.LICENSE.txt"
+    "main.css": "/forbidden-islands/static/css/main.2ac81a6a.chunk.css",
+    "main.js": "/forbidden-islands/static/js/main.adec43f1.chunk.js",
+    "main.js.map": "/forbidden-islands/static/js/main.adec43f1.chunk.js.map",
+    "runtime-main.js": "/forbidden-islands/static/js/runtime-main.8e0a6915.js",
+    "runtime-main.js.map": "/forbidden-islands/static/js/runtime-main.8e0a6915.js.map",
+    "static/js/2.d99d9bc9.chunk.js": "/forbidden-islands/static/js/2.d99d9bc9.chunk.js",
+    "static/js/2.d99d9bc9.chunk.js.map": "/forbidden-islands/static/js/2.d99d9bc9.chunk.js.map",
+    "index.html": "/forbidden-islands/index.html",
+    "static/css/main.2ac81a6a.chunk.css.map": "/forbidden-islands/static/css/main.2ac81a6a.chunk.css.map",
+    "static/js/2.d99d9bc9.chunk.js.LICENSE.txt": "/forbidden-islands/static/js/2.d99d9bc9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c151dbb0.js",
+    "static/js/runtime-main.8e0a6915.js",
     "static/js/2.d99d9bc9.chunk.js",
     "static/css/main.2ac81a6a.chunk.css",
     "static/js/main.adec43f1.chunk.js"
