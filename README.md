@@ -1,6 +1,6 @@
 # Forbidden
 
-Check out the [project demo](https://user24.github.io/forbidden).
+Check out the [project demo](https://user24.github.io/forbidden-islands).
 
 ## Create React App stuff
 
