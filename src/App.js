@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import './App.css';
 import Layouts from './data/layouts.json';
+import IslandConverter from './islandConverter';
 
 const Layout = (layout) => {
 
@@ -9,6 +10,7 @@ const Layout = (layout) => {
   return (<div className='layout'>
     <h3>{layout.name}</h3>
     <div className='sum'>({sumTiles} tiles)</div>
+    <div>{IslandConverter.island2String(layout.tiles)}</div>
     <div className='layout-tiles'>
       {layout.tiles.map(row => <div className='tile-row'>{row.map(cell => {
         let className = 'tile';
