@@ -1,17 +1,22 @@
+.islands {
+  text-align: center;
+}
 .layouts{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .layout{
   text-align: center;
-  margin-right: 50px;
   margin-bottom: 50px;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+.layout:not(:last-child) {
+  margin-right: 50px;
 }
 
 .layout-tiles{
@@ -20,6 +25,7 @@
 .tile-row {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .tile {
   margin-right: 1px;
@@ -29,9 +35,6 @@
 }
 .filled {
   background: #444;
-}
-.impassable {
-  Xbackground: #c99;
 }
 
 h3 {

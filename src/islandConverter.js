@@ -43,13 +43,13 @@ class IslandConverter {
         // Get ready to look ahead to the next letter
         j++;
       }
-      island.push(row);
+      island.push(row.map(b => parseInt(b)));
     }
     return island;
   }
 }
 
-/*
+/**
 const island = [
   [0,0,0,1,1,1,0,0,0],
   [0,0,1,1,1,1,1,0,0],
@@ -60,6 +60,6 @@ const island = [
 
 const str = IslandConverter.island2String(island);
 console.log(str, IslandConverter.string2island(str).map(row=>row.join()));
-*/
+**/
 
 export default IslandConverter;
