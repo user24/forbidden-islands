@@ -33,6 +33,13 @@
   width: 25px;
   height: 25px;
 }
+.layout-tiles.editable .tile:hover {
+  background: #888;
+}
+.layout-tiles.editable .tile.filled:hover {
+  background: #AAA;
+}
+
 .filled {
   background: #444;
 }
