@@ -23,25 +23,21 @@ class IslandConverter {
 
   static string2island = (str) => {
     const rowLength = this._alphabet.indexOf(str.charAt(0));
-    const list = str.slice(1).split('').map(this._char2bin).map(bin6 => bin6.split(''));
+    const letters = str.slice(1).split('').map(this._char2bin).map(bin6 => bin6.split(''));
     const island = [];
 
-    for (let i = 0; i < list.length; i++) {
+    for (let i = 0; i < letters.length; i++) {
       let row = [];
-      let j = i;
       while (row.length < rowLength) {
         // Add all the binary this letter encoded
-        row = row.concat(list[j]);
-        if (row.length > rowLength) {
+        row = row.concat(letters[i]);
+        if (row.length >= rowLength) {
           // This is now too long; trim it down to length
           row = row.slice(0, rowLength);
-          if (j > i) {
-            // and don't process this letter again
-            i++;
-          }
+          break;
         }
         // Get ready to look ahead to the next letter
-        j++;
+        i++;
       }
       island.push(row.map(b => parseInt(b)));
     }
